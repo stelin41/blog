@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    margin:0;
+    background-color:#141414;
+    color:#FFF;
+}
+
+a {
+    color:#70A7FF;
+}
+
+a:link,a:visited,a:hover,a:active { 
+    text-decoration: none;
+}
+
+#nav_li {
+    display:inline;
+}
+
+#header {
+    background-color:#414141;
+    text-align:center;
+}
+
