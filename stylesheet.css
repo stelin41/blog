@@ -52,18 +52,17 @@ a {
 }
 
 #aside{
-    padding-top:0.5em;
-    margin-bottom:0.5em;
+    padding-top:1em;
     float:left;
 }
 
 #aside_li {
-    margin:0.5em 1em 1.5em 0px;
+    margin:0.5em 0.5em 1.5em 0px;
     display:block;
 }
 
 #aside_li a{
-    padding:1em 4vw 1em 4vw;
+    padding:0.5em 4vw 0.5em 4vw;
 }
 
 #aside_li a:hover{
