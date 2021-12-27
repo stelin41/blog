@@ -58,12 +58,12 @@ a {
 }
 
 #aside_li {
-    margin:0px 1em 1em 0px;
+    margin:0.5em 1em 1.5em 0px;
     display:block;
 }
 
 #aside_li a{
-    padding:0.5em 4vw;
+    padding:1em 4vw 1em 4vw;
 }
 
 #aside_li a:hover{
