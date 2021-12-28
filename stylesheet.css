@@ -3,8 +3,11 @@
 :root {
   --main:#414141;
   --secondary:#141414;
-  --text:#FFF;
+  --text:#BBB;
+  --title:#DDD;
   --hyperlink:#70A7FF;
+
+  --air:10vw;
 }
 
 *{
@@ -13,8 +16,7 @@
 }
 
 html{
-    font-family: 'Open Sans', sans-serif;
-    font-size:120%;
+    font: 120%/1.7em 'Open Sans', sans-serif;
 }
 
 body {
@@ -27,8 +29,14 @@ a {
     text-decoration: none;
 }
 
+h1, h2, #quote, #time{
+    line-height: 1.3em;
+    color:var(--title);
+    text-align: center;
+}
+
 #menu {
-    padding:1em 5% 0px 5%;
+    padding:1em var(--air) 0px var(--air);
 }
 
 #header {
@@ -40,11 +48,11 @@ a {
 }
 
 #nav_li {
-    display:block;
+    display:inline;
 }
 
 #nav_li a{
-    padding:0.5em 3vw;
+    padding:1em 3vw;
 }
 
 #nav_li a:hover{
@@ -57,6 +65,7 @@ a {
 
 #aside{
     padding-top:1em;
+    display: table-cell;
     float:left;
 }
 
@@ -78,11 +87,13 @@ a {
     text-align:center;
 }
 #content {
+    display: table;
     background-color:var(--secondary);
-    margin:0px 5% 0px 5%;
-    padding-bottom:100%;
+    margin:0px var(--air) 0px var(--air);
 }
 #main {
+    display: table-cell;
+    vertical-align: top;
     background-color:var(--secondary);
-    padding:1em;
+    padding:3em 3em 5em 0em;
 }
