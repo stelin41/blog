@@ -14,7 +14,7 @@
 
 html{
     font-family: 'Open Sans', sans-serif;
-    font-size:150%;
+    font-size:120%;
 }
 
 body {
@@ -28,7 +28,7 @@ a {
 }
 
 #menu {
-    padding:1em 10% 0px 10%;
+    padding:1em 5% 0px 5%;
 }
 
 #header {
@@ -79,7 +79,7 @@ a {
 }
 #content {
     background-color:var(--secondary);
-    margin:0px 10% 0px 10%;
+    margin:0px 5% 0px 5%;
     padding-bottom:100%;
 }
 #main {
