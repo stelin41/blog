@@ -7,7 +7,7 @@
   --title:#DDD;
   --hyperlink:#70A7FF;
 
-  --air:10vw;
+  --air:0;
 }
 
 *{
@@ -16,12 +16,14 @@
 }
 
 html{
-    font: 120%/1.7em 'Open Sans', sans-serif;
+    font: 120%/1.6em 'Open Sans', sans-serif;
 }
 
 body {
     background-color:var(--main);
     color:var(--text);
+    max-width: 60em;
+    margin: 0px auto;
 }
 
 a {
@@ -60,7 +62,7 @@ h1, h2, #quote, #time{
 }
 
 #hr {
-    margin: 0.5em 35vw 0.5em 35vw;
+    margin: 0.5em 46% 0.5em 46%;
 }
 
 #aside{
