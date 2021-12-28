@@ -40,7 +40,7 @@ a {
 }
 
 #nav_li {
-    display:inline;
+    display:block;
 }
 
 #nav_li a{
