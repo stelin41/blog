@@ -6,8 +6,6 @@
   --text:#BBB;
   --title:#DDD;
   --hyperlink:#70A7FF;
-
-  --air:0;
 }
 
 *{
@@ -22,7 +20,7 @@ html{
 body {
     background-color:var(--main);
     color:var(--text);
-    max-width: 60em;
+    max-width: 50em;
     margin: 0px auto;
 }
 
@@ -38,7 +36,7 @@ h1, h2, #quote, #time{
 }
 
 #menu {
-    padding:1em var(--air) 0px var(--air);
+    padding-top:1em;
 }
 
 #header {
@@ -62,7 +60,7 @@ h1, h2, #quote, #time{
 }
 
 #hr {
-    margin: 0.5em 46% 0.5em 46%;
+    margin: 0.5em 46%;
 }
 
 #aside{
@@ -77,7 +75,7 @@ h1, h2, #quote, #time{
 }
 
 #aside_li a{
-    padding:0.5em 4vw 0.5em 4vw;
+    padding:0.5em 4vw;
 }
 
 #aside_li a:hover{
@@ -91,7 +89,6 @@ h1, h2, #quote, #time{
 #content {
     display: table;
     background-color:var(--secondary);
-    margin:0px var(--air) 0px var(--air);
 }
 #main {
     display: table-cell;
