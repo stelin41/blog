@@ -20,7 +20,7 @@ html{
 body {
     background-color:var(--main);
     color:var(--text);
-    max-width: 50em;
+    max-width: 55em;
     margin: 0px auto;
 }
 
