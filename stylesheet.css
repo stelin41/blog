@@ -75,7 +75,7 @@ h1, h2, #quote, #time{
 }
 
 #aside_li a{
-    padding:0.5em 4vw;
+    padding:0.5em 5em;
 }
 
 #aside_li a:hover{
