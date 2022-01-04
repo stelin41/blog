@@ -19,6 +19,8 @@ html{
 
 body {
     background-color:var(--main);
+    background-image: url('background.jpg');
+    background-attachment: fixed; 
     color:var(--text);
     max-width: 60em;
     margin: 0px auto;
@@ -80,10 +82,14 @@ h1, h2, #quote, #time{
 
 #aside_li a:hover{
     background-color:var(--main);
+    background-image: url('background.jpg');
+    background-attachment: fixed; 
 }
 
 #header {
     background-color:var(--main);
+    background-image: url('background.jpg');
+    background-attachment: fixed; 
     text-align:center;
 }
 #content {
