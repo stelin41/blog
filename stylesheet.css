@@ -92,10 +92,12 @@ h1, h2, #quote, #time{
     background-attachment: fixed; 
     text-align:center;
 }
+
 #content {
     display: table;
     background-color:var(--secondary);
 }
+
 #main {
     display: table-cell;
     vertical-align: top;
