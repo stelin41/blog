@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 :root {
-  --main:#414141;
+  /*--main:#414141;*/
+  --main:#2F343C;
   --secondary:#141414;
   --text:#BBB;
   --title:#DDD;
